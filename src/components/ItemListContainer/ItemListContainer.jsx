@@ -1,7 +1,12 @@
+
+import styles from "../ItemListContainer/ItemListContainer.module.css"
+
 const ItemListContainer = ({ greeting }) => {
   return (
     <div>
-        <h2>{greeting}</h2>
+        <h2 className={styles.saludo}>
+          {greeting}
+        </h2>
     </div>
   );
 };
