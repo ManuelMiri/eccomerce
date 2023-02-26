@@ -1,13 +1,16 @@
 
-
 import React from 'react'
+import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import Navbar from './components/Navbar/Navbar'
 
-const App = () => {
+function App() {
   return (
-    <Navbar/>
-  
-  )
+    <div>
+      <Navbar/>
+      <ItemListContainer greeting="Hola, como estas ?" />
+      
+    </div>
+  );
 }
 
-export default App
+export default App;

@@ -1,7 +1,7 @@
 
 
 import styles from "./Navbar.module.css";
-
+import   CartWidget  from "../CartWidget/CartWidget";
 
 
 const Navbar = () => {
@@ -20,6 +20,7 @@ const Navbar = () => {
         <a href="#arriba" title="Todas">Urbanas</a>
         <a href="#arriba" title="Todas">Deportivas</a>
       </ul>
+      <CartWidget/>
       </div>
     </div>
     );
