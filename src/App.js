@@ -1,14 +1,20 @@
 
 import React from 'react'
-import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import Navbar from './components/Navbar/Navbar'
+import ProductCard from './components/ProductCard/ProductCard';
+import Footer from './components/Footer/Footer';
+import ItemCount from './components/ItemCount/ItemCount';
+
+
 
 function App() {
   return (
     <div>
       <Navbar/>
-      <ItemListContainer greeting="Hola, como estas ?" />
       
+      <ProductCard title="Queso Chanco" price={5600}/>
+      <ItemCount/>
+      <Footer/>
     </div>
   );
 }
