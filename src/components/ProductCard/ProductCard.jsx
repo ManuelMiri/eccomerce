@@ -3,9 +3,7 @@ import React from 'react'
 
 const ProductCard = ({title, price}) => {
 
-    const saludar =()=>{
-        console.log("hola")   
-            }
+    
    
   return (
     <div>
@@ -17,7 +15,7 @@ const ProductCard = ({title, price}) => {
             {price} 
         </h2>
 
-        <button onClick={saludar}>saludar</button>
+        
     </div>
   )
 }
