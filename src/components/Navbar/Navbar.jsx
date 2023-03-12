@@ -10,15 +10,15 @@ const Navbar = () => {
       <div className={styles.containerNavbar}>
       
       <img
-        src="https://res.cloudinary.com/dzsymxvys/image/upload/v1677377345/depositphotos_197550170-stock-illustration-automotive-car-logo-vector-design_ouwftw.webp"
-        alt=""
-        style={{width: "10%", objectFit: "cover"}}
+        src="https://res.cloudinary.com/dzsymxvys/image/upload/v1678377892/cheese-logo-template-suitable-for-restaurant-cheese-production-and-food-industry-logo-vector_gy6v2z.jpg"
+        alt="Logo Quesos"
+        style={{width: "4%", objectFit: "cover", padding:"5%"}}
       />
       
       <ul className={styles.containerList}>
-        <a href="#arriba" title="Todas">Todas</a>
-        <a href="#arriba" title="Todas">Urbanas</a>
-        <a href="#arriba" title="Todas">Deportivas</a>
+        <a href="#arriba" title="Inicio">Inicio</a>
+        <a href="#arriba" title="Lista Precios">Lista Precios</a>
+        <a href="#arriba" title="Contacto">Contacto</a>
       </ul>
       <CartWidget/>
       </div>
